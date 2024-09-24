@@ -8,16 +8,20 @@ Staging Tables:
 Created staging tables to temporarily hold raw data from various sources, facilitating data cleansing and preparation. These tables served as an intermediary step before transforming the data into a structured format for analysis.
 ETL Jobs using Talend:
 
-Developed Extract, Transform, Load (ETL) jobs using Talend, a robust data integration tool. The ETL process included:
+Developed Extract, Transform, Load (ETL) jobs using Talend, a robust data integration tool.
+The ETL process included:
 Extracting data from multiple sources (e.g., city traffic databases).
 Transforming the data to ensure consistency and accuracy, including data type conversions and cleaning invalid entries.
 Loading the transformed data into the dimensional model, allowing for efficient querying and analysis.
+
 Mapping Document:
 
 Created a detailed mapping document that outlines how raw data fields correspond to the dimensions and facts in the dimensional model. This document serves as a reference for data transformations and ensures that stakeholders understand the data lineage.
+
 Data Profiling with Alteryx and Python:
 
 Utilized Alteryx and Python to profile the data, assessing its quality and completeness. This involved identifying missing values, outliers, and inconsistencies, ensuring that only high-quality data is used for analysis.
+
 2. Interactive Dashboards Development
 Tableau and Power BI:
 Designed and developed interactive dashboards using Tableau and Power BI, which provide visual representations of the traffic accident data. Key features of the dashboards include:
@@ -38,5 +42,7 @@ Conducted a thorough analysis of fatal accidents to uncover patterns and contrib
 Enhancing Decision-Making:
 
 The insights generated from the analysis are intended to inform city officials and transportation agencies, helping them make data-driven decisions to improve traffic safety and reduce the incidence of accidents.
+
 Conclusion
+
 This project not only builds a strong analytical foundation for understanding motor vehicle collisions but also creates a toolkit for stakeholders to visualize and act on critical traffic safety data. The integration of advanced tools like Talend, Alteryx, Tableau, and Power BI demonstrates a comprehensive approach to data management and visualization, ultimately contributing to enhanced urban safety initiatives.
